@@ -19,7 +19,7 @@ Now we need a virtual floppy disk image to which we can write our bootloader-siz
 
 This uses the 'dd' utility to directly copy our kernel to the first sector of the floppy disk image. When it's done, we can boot our new OS using the QEMU PC emulator as follows:
 
-qemu-system-i386 -fda andrew.flp
+`qemu-system-i386 -fda andrew.flp`
 
 And there you are! If you want to use it on a real PC, you can write the floppy disk image to a real floppy and boot from it, or generate a CD-ROM ISO image. For the latter, make a new directory called cdiso and move the myfirst.flp file into it. Then, in your home directory, enter:
 
