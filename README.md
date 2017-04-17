@@ -8,7 +8,7 @@ These instructions are for Linux; I used the desktop version of Ubuntu 14.04
 First, some dependencies:
 `sudo apt-get install build-essential qemu nasm`
 
-Now in a terminal:
+Now in a terminal:  
 `nasm -f bin -o andrewos.bin andrewos.asm`
 
 This will assemble the code into a raw binary file. The -f bin flag says we want raw binary (not a Linux executable). The -o andrewos.bin part will generate a binary in a file called andrewos.bin.
