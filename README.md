@@ -1,5 +1,5 @@
 # andrewos
-AndrewOS is built with 16Bit x86 assembly and runs an i386
+AndrewOS is an operating system for x86 PCs, written in assembly language. It is a learning tool to show how simple 16-bit, real-mode OSes work.
 
 ## Building
 
